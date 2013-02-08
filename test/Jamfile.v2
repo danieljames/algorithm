@@ -59,7 +59,7 @@ alias unit_test_framework
      [ compile-fail hex_fail1.cpp ]
 
 # Wrapper tests
-     [ run wrapper_test1.cpp        : : : : wrapper_test1 ]
+     [ run wrapper_test1.cpp unit_test_framework         : : : : wrapper_test1 ]
 
 # Gather tests
      [ run gather_test1.cpp unit_test_framework        : : : : gather_test1 ]
